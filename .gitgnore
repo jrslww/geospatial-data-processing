@@ -1,0 +1,36 @@
+# .gitignore
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.egg-info/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+
+# Virtual environment files
+venv/
+.env
+
+# Reports and output files
+reports/*.html
+
+# Other files
+*.log
+*.bak
+*.swp
+*.swo
+*.sqlite
+*.csv
+*.shp
+*.shx
+*.prj
+*.dbf
+*.cpg
